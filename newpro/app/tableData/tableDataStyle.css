@@ -1,0 +1,65 @@
+
+.col-sm-3{
+  top:1px;
+}
+.col-sm-9{
+  border-radius:6px;
+  top:38px;
+}
+.navBar{
+  text-decoration:none;
+  color:black;
+}
+.navBar:hover{
+  text-decoration:none;
+  color:red;
+}
+.select:hover{
+  background-color:white;
+}
+#scrollStyles::-webkit-scrollbar{
+  width:16px;
+  background-color:#cccccc;
+}
+#scrollStyles::-webkit-scrollbar-thumb{
+  background-color:darkgrey;
+  border-radius:5px;
+  -webkit-width:1em;
+}
+.dropdown-menu::-webkit-scrollbar{
+  width:16px;
+  background-color:#cccccc;
+}
+.dropdown-menu::-webkit-scrollbar-thumb{
+  background-color:darkgrey;
+  border-radius:5px;
+  -webkit-width:1em;
+}
+.placeholdercolor::-webkit-input-placeholder {
+  color: white !important;
+}
+#hrefStyles{
+  text-decoration:none;
+}
+#hrefStyles:link {
+  color: black;
+}
+#hrefStyles:hover {
+  color: white;
+}
+#hrefStyles:active {
+  color: white;
+}
+.highlight{
+  background-color:white;
+}
+.langText{
+  border:1px solid red;
+}
+.textValidations.ng-touched {
+  border:1px solid red;
+}
+.textValidations.ng-valid {
+  border:0.5px solid grey;
+  color:black;
+}
